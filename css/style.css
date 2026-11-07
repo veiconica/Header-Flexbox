@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Hanken Grotesk", sans-serif;
+}
+
+.titulo {
+	color: #008ECC;
+	padding-left: 16px;
+}
+
+.logo {
+	display: flex;
+	justify-content: space-between;	
+	align-items: center;
+
+}
+
+.quadrado {
+    background-color: #F3F9FB;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #F3F9FB;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 0;
+}
+
+.quadrado span {
+    width: 22px;
+    height: 2px;
+    background-color: #008ECC;
+    border-radius: 2px;
+}
+
+.menucima {
+	display: flex;
+	justify-content: space-between;
+	background-color: #F5F5F5;
+	align-items: center;
+	padding: 65px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: #666666;
+}
+
+
+.lado > p {
+	padding-left: 25px;
+}
+
+.lado {
+	display: flex;
+	justify-content: space-around;
+}
+
+.menucentro {
+	display: flex;
+	justify-content: space-between;
+	padding: 65px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border: 1px solid #EDEDED;
+	align-items: center;
+}
+
+.pesquisa {
+	display: flex;
+	justify-content: space-around;
+	background-color: #F3F9FB;
+	padding: 10px;
+	padding-right: 150px;
+	padding-left: 20px;
+	border-radius: 10px;
+	color: #666666;
+}
+.login {
+	display: flex;
+	justify-content: space-around;
+	color: #666666;
+}
+
+.login > p {
+	padding-left: 20px;
+}
+
+.menubaixo {
+	display: flex;
+	border: 1px solid #EDEDED;
+	align-items: center;
+	justify-content: space-around;
+	padding: 20px;
+}
+
+.menubaixo > a {
+	padding-left: 30px ;
+	padding-right: 30px;
+	font-size: 20px;
+	border: solid 2px #F3F9FB;
+	border-radius: 18px;
+	background-color: #F3F9FB;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	text-decoration: none;
+	color: #222222;
+}
+
+.menubaixo > a:hover {
+	background-color: #008ECC;
+}
+
+.carrossel {
+    background-color: #212844;
+    color: #FFFFFF;
+    display: flex;
+    align-items: flex-start; 
+    justify-content: space-between;
+    padding: 70px;
+    padding-top: 40px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 20px;
+    border-radius: 16px;
+    position: relative;
+}
+
+.propaganda > h1 {
+	font-size: 60px;
+}
+
+
+
+.carrossel > img {
+	width: 200px;  
+    height: auto;
+}
+
+.botaodireita {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;gv  
+    background-color: #F3F9FB;
+    color: #008ECC;
+    border: 1px solid;
+    font-size: 18px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: -25px;
+}
+
+.botaoesquerda {
+	width: 50px;
+    height: 50px;
+    border-radius: 50%;gv  
+    background-color: #F3F9FB;
+    color: #008ECC;
+    border: 1px solid;
+    font-size: 18px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -25px;
+}
+
+
+
+.bolinhas {
+    position: absolute;
+    bottom: 25px;
+    left: 70px;
+    display: flex;
+    gap: 8px;
+}
+
+.bolinhas > span {
+    width: 8px;
+    height: 8px;
+    background-color:#FFFFFF;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.bolinhas >span.ativo {
+    width: 24px;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+}
